@@ -2,7 +2,7 @@
   "env": {
     "MONGODB_USER": "kamukontolmongo",
     "MONGODB_PASSWORD": "4hSntByhzwtI9yLK",
-    "MONGODB__DB_DEFAULT": "shop",
+    "MONGODB_DB_DEFAULT": "shop",
     "STRIPE_KEY": "sk_test_51OMrxOCcQwTPyO2e9o7tgpMJbSaVCOPWPh2VjMsyVT8MxyYaB0nN5bZmtSGr0gasF41EWyp5h49HHbO3khSA2q1a00ck2ALJkb"
   }
 }
