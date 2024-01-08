@@ -24,6 +24,9 @@ const app = express();
 const store = new MongoDBStore({
   uri: MONGODB_URI,
   collection: 'sessions',
+  options: {
+    useUnifiedTopology: true,
+  },
 });
 const csrfProtection = csrf();
 const sk = fs.readFileSync('server.key');
